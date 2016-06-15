@@ -1,0 +1,171 @@
+<head>
+<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+</head>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Phillip's Handyman Services</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+     	<ul class="nav navbar-nav navbar-right">
+        <li><a href="#info"><span class="glyphicon glyphicon-user"></span> About</a></li>
+        <li><a href="#services"><span class="glyphicon glyphicon-home"></span> Services</a></li>
+        <li><a href="#jobs"><span class="glyphicon glyphicon-wrench"></span>Our Work</a></li>
+        <li><a href="#contact"><span class="glyphicon glyphicon-envelope"></span>Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header>
+	<div class="ui-header-image">
+		<%= image_tag "header_image.jpg", size: "1400x350", alt: "Edit Entry"%> 
+		<div class='col'>
+		<div class="col-xs-6 text-center">
+			<h2>Phillip's Handyman Services</h2>
+			<h3>Offering Professional Handyman Services in the greater Chicago area!</h3>
+			<h4>CALL NOW: (773) 454-3403</h4>
+		</div>	
+		</div>
+	</div>	
+</header>
+
+<section id="info">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-4 text-center">
+				<h3>Covering Chicago Area</h3>
+				<p>Working in Downtown, South Loop, Lakeview, Gold Coast, Wrigleyville, Logan Square, Rogers Park and surrounding areas. We also cover nearby northern suburbs including Skokie and Evanston.</p>
+			</div>
+			<div class="col-xs-4 text-center">
+				<h3>What We Do</h3>
+				<p>Over 15 years experience working with all types of jobs. Lighting, light plumbing (faucet replacements, unclogging drains,
+				sink installations, drain repair, leak repair), electricity(outlet replacement, short repair, fixture replacement and installation, ceiling fan replacement, recessed lighting installation) </p>
+			</div>
+			<div class="col-xs-4 text-center">
+				<h3>And much more!</h3>
+				<p>Flooring (sub-floor, ceramic, porcelin, stone, hardwood, laminates, glass). Painting (caulking, drywall repair, walls, ceilings,
+				trims, doors, interior, exterior). Carpentry (framing, trim, casing, crown molding, cabinets, window installation, roofing, exterior
+				wood repair, interior and exterior doors)</p>
+			</div>
+		</div>
+	</div>				
+</section>
+
+<section id="jobs">
+	<div class="container">
+		<div class="ui-jobs-section">
+			<div class='row'>
+				<div class="col-xs-12 text-center jobs">
+					<h3>Over 15 years of handyman experience, covering a variety of jobs. Including:</h3>
+				</div>
+			</div>
+			<div class='row'>	
+				<div class="col-xs-6 text-center">
+					<h3>Water damage repairs</h3>
+					<%= image_tag "naperville1.jpg", alt: "Edit Entry"%> 
+					<%= image_tag "naperville2.jpg", alt: "Edit Entry"%> 
+					<%= image_tag "naperville3.jpg", alt: "Edit Entry"%> 
+				</div>
+				<div class="col-xs-6 text-center images">
+					<h3>Floor repairs</h3>
+					<%= image_tag "floor1.jpg", alt: "Edit Entry"%> 
+					<%= image_tag "floor2.jpg", alt: "Edit Entry"%> 
+					<%= image_tag "floor3.jpg", alt: "Edit Entry"%> 
+				</div>
+			</div>
+			<div class='row'>	
+				<div class="col-xs-4 text-center">
+					<h3>Closet remodels</h3>
+					<%= image_tag "closet_start.jpg", alt: "Edit Entry"%> 
+					<%= image_tag "closet_done.jpg", alt: "Edit Entry"%> 
+				</div>
+				<div class="col-xs-4 text-center images">
+					<h3>Shower floors</h3>
+					<%= image_tag "bathroom_start.jpg", alt: "Edit Entry"%> 
+					<%= image_tag "bathroom_done.jpg", alt: "Edit Entry"%> 
+				</div>
+				<div class="col-xs-4 text-center images">
+					<h3>Kitchen cabinets</h3>
+					<%= image_tag "kitchen_start.jpg", alt: "Edit Entry"%> 
+					<%= image_tag "kitchen_done.jpg", alt: "Edit Entry"%> 
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="services">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<h3>Service Menu</h3>
+			</div>	
+		</div>
+		<div class='row'>	
+			<div class="col-xs-3">
+				<h4 class="text-center">Maintenance</h4>
+				<ul class="ui-service-list">
+					<li>Gutters: repair and cleaning</li>
+					<li>Siding repairs</li>
+					<li>Tile installs and repair</li>
+					<li>Toilet installs and repair</li>
+					<li>Window installs and repair</li>
+					<li>Door installs and repair</li>
+					<li>Leak repairs</li>
+					<li>Drywall repairs</li>
+				</ul>
+			</div>
+			<div class="col-xs-3">
+				<h4 class="text-center">Home Improvements</h4>
+				<ul class='ui-service-list'>
+					<li>Air conditioner installs</li>
+					<li>Appliance installs</li>
+					<li>Countertops and cabinets</li>
+					<li>Painting</li>
+					<li>Insulation</li>
+					<li>Storm windows installation</li>
+					<li>Lighting fixtures</li>
+				</ul>
+			</div>
+			<div class="col-xs-3">
+				<h4 class="text-center">Carpentry</h4>
+				<ul class='ui-service-list'>
+					<li>Cabinets</li>
+					<li>Flooring</li>
+					<li>Flooring: hardwood, vinyl, tile</li>
+					<li>Shelving</li>
+					<li>Bookcases</li>
+					<li>Framing</li>
+				</ul>
+			</div>
+			<div class="col-xs-3">
+				<h4 class="text-center">Assembly and More</h4>
+				<ul class='ui-service-list'>
+					<li>Air conditioner installs</li>
+					<li>Appliance installs</li>
+					<li>Furniture Assembly</li>
+					<li>Smoke detectors: install and battery replacement</li>
+					<li>Basketball hoop install</li>
+				</ul>	
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="contact">
+	<div class="col-sm-12 text-center contact">
+		<h3>Need an estimate?
+		<a href="mailto:info@philliphandymanservices.com" target="_top">Contact us </a>for a free quote! 
+		Or find us on
+		<a href="https://www.facebook.com/PhillipHandymanServices/" target="_blank"><%= image_tag "facebook.png", alt: "Edit Entry"%></a>
+
+		</h3>
+	</div>
+</section>
+
